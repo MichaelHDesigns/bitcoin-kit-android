@@ -135,7 +135,7 @@ class DashKit : AbstractKit, IInstantTransactionDelegate, BitcoinCore.Listener {
                 .setSyncMode(syncMode)
                 .setConfirmationThreshold(confirmationsThreshold)
                 .setStorage(coreStorage)
-                .setBlockHeaderHasher(X11Hasher())
+                .setBlockHeaderHasher(X25XHasher())
                 .setInitialSyncApi(initialSyncApi)
                 .setTransactionInfoConverter(dashTransactionInfoConverter)
                 .setBlockValidator(blockValidatorSet)
