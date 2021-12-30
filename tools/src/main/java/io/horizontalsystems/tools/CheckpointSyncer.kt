@@ -16,7 +16,7 @@ import io.horizontalsystems.bitcoincore.network.peer.task.PeerTask
 import io.horizontalsystems.bitcoincore.storage.BlockHeader
 import io.horizontalsystems.dashkit.MainNetDash
 import io.horizontalsystems.dashkit.TestNetDash
-import io.horizontalsystems.dashkit.X11Hasher
+import io.horizontalsystems.dashkit.X25XHasher
 import java.util.*
 import java.util.concurrent.Executors
 
