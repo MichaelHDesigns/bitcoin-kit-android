@@ -104,7 +104,7 @@ class DashKit : AbstractKit, IInstantTransactionDelegate, BitcoinCore.Listener {
             }
         }
 
-        val paymentAddressParser = PaymentAddressParser("dash", removeScheme = true)
+        val paymentAddressParser = PaymentAddressParser("hth", removeScheme = true)
         val instantTransactionManager = InstantTransactionManager(dashStorage, InstantSendFactory(), InstantTransactionState())
         val initialSyncApi = InsightApi(initialSyncUrl)
 
